@@ -36,29 +36,15 @@ background-color:#0d282c;
   height: 100%;
 }
 
-nav {
-  height: 100%;
-  border-top: solid 1px #ff8f38 ;
-  border-bottom: solid 1px #ff8f38;
- 
-}
-
 nav > ul {
   height: 100%;
   display: flex;
   justify-content: center;
-
-
-
 }
 nav > ul > li{
   height: 100%;
-  list-style: none;
+  list-style:;
   position: relative;
-
-  
-
-
 }
 
 nav > ul > li> a {
@@ -66,11 +52,12 @@ nav > ul > li> a {
   height: 100%;
   display: flex;
   align-items: center;
-  padding-left: 50px;
+  padding-left: 25px;
   color:#ff8f38;
  font-family: "west";
  text-decoration: none;
  font-size: 1.5rem;
+ 
  
 }
 nav > ul > li> a:hover{
@@ -78,20 +65,23 @@ nav > ul > li> a:hover{
 }
 
 nav > ul > li > ul{
+  background: border-box;
+  background-color:#0d282c;
+  border: 1px solid white;
   width: 200px;
   display:flex;
   flex-direction: column;
-  align-items: center;
   position: absolute;
   top: 70px;
   left: 20px;
-  padding: 15px 15px;
+  padding: 5px 5px;
   visibility: hidden;
   opacity: 0;
   z-index: 10;
   transition: all 300ms ease ;
   list-style-type: none;
   font-family: "ganjah";
+
 
 }
 
@@ -100,17 +90,26 @@ nav > ul > li:hover ul{
   visibility: visible;
   opacity: 1;
   top: 70px;
+
+
 }
 nav ul li ul a{
   color: #ff8f38;
   text-transform: uppercase;
   text-decoration: none;
+
+
 }
 nav ul li ul a:hover{
   color:#e67e22;
+
+}
+
+.sectionCarousel{
+  padding-top: 110px;
+  padding-bottom: 25%;
 }
 .carousel-inner {
-  padding-top: 15px;
   display: flex;
   justify-content: space-around;
 }
@@ -161,13 +160,16 @@ justify-content: center;
 
 .col-md-6{
   width: 25%;
-  
+  border-radius: 15%;  
+}
+.col-md-6:hover{
+  transform: scale(1.1);
+  transition: 400ms;
 }
 
 .h2subPage{
   font-family: "west";
-  padding-top: 15px;
-  padding-left: 10px;
+  padding-left: 150px;
   color: white;
   text-align: center;
 }
@@ -178,7 +180,6 @@ justify-content: center;
   padding-left: 20px;
   color: white;
   font-size: 1rem;
-
 }
 .contformcompra{
   display: flex;
@@ -192,10 +193,7 @@ justify-content: center;
   padding-top: 15px;
   padding-left: 10px;
   color: white;
-
 }
-
-
 
 .ulsubPage{  
   font-family: "ganjah";
@@ -211,18 +209,20 @@ justify-content: center;
 .ulsubPage li{
   padding-bottom: 15px;
   list-style: none;
+  text-align: center;
 }
-
 
 .contcompra{
   text-align: center;
 }
 
-
-
 .form-check{
   color:white;
-
+  padding-bottom: 5%;
+}
+.contBtn{
+  padding-top: 5%;
+  padding-left: 15%;
 }
 
 
