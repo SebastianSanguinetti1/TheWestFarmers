@@ -109,6 +109,14 @@ nav ul li ul a:hover{
   padding-bottom: 5%;
 }
 
+.tituloP{
+  text-align: center;
+  font-family: "ganjah";
+  font-size: 1.4rem;
+  padding-top: 5%; 
+
+}
+
 .sectionCarousel{
   padding-bottom: 15%;
 }
