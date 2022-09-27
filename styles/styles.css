@@ -102,9 +102,15 @@ nav ul li ul a:hover{
 
 }
 
+.contTitulo{
+  text-align: center;
+  color: #e67e22;
+  font-family: "west";
+  padding-bottom: 5%;
+}
+
 .sectionCarousel{
-  padding-top: 110px;
-  padding-bottom: 25%;
+  padding-bottom: 15%;
 }
 .carousel-inner {
   display: flex;
